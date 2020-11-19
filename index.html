@@ -1,0 +1,819 @@
+
+<?php include("contact.php");  ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="CodeitSoft">
+    <meta name="description" content="Justice Elvis Bedi's website">
+    <meta name="keywords" content="Elvis, Justice, Bedi , Elvis Justice Bedi, Justice Elvis Bedi, justicebedi, elvisbedi, elvisjusticebedi, justiceelvisbedi, serendipity ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>Elvis Justice | Home</title>
+
+    <!--==========Favicon==========-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/about/elvis.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/about/elvis.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/about/elvis.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/about/elvis.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/about/elvis.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/about/elvis.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--========== Theme Fonts ==========-->
+ <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"> 
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <!--Normalizer css-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    
+   
+</head>
+<style type="text/css">
+    .facebook
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .twitter
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .instagram
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .whatsapp
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .gallery
+    {
+        margin: 10px 50px;
+    }
+
+    .gallery img
+    {
+        transition: 1s;
+        padding: 15px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .gallery img:hover
+    {
+        filter: grayscale(100%);
+        transform: scale(1.1);
+    }
+
+    .banner-btn
+    {
+        border: 1px solid #F9C72A;
+        background: transparent;
+        color: #F9C72A;
+    }
+
+    .likes
+    {
+        position: relative;
+        left: 120px;
+        /*color: #F9C72A;*/
+        
+    }
+
+    .fb{
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .tw
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .ig
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    @media(max-width:991px)
+  {
+     .likes
+    {
+        position: relative;
+        left: 200px;
+        /*color: #F9C72A;*/
+        
+    }
+
+    .fb{
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .tw
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .ig
+    {
+        color: #F9C72A;
+        border: 1px solid #F9C72A;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+</style>
+<body>
+
+    <!--preloader starts
+    <div class="loader_bg"><div class="loader"></div></div>
+    preloader ends-->
+
+
+    <!-- nav begin -->
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
+
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <a href="index.html" class="navbar-brand"><span class="logo">Elvis Justice</span></a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+        <div class="navbar-collapse collapse">
+            <nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                    <li><a class="smooth-menu" href="#about">About Me</a></li>
+                    <li><a class="smooth-menu" href="#services">Services</a></li>
+                    <li><a class="smooth-menu" href="#blog">Blog</a></li>
+                    <li><a class="smooth-menu" href="#gallery">Gallery</a></li>
+                    <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                </ul>
+                  </nav>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <!--main menu ends-->
+            </div>
+        </div>
+    </header>
+    <!--nav ends-->
+
+    <!--Banner area starts-->
+    <div class="banner-area" id="home">
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <section class="intro animate-scale">
+                                    <h3 style="color: #F9C72A;">Welcome</h3>
+                                    <h1 class="ah-headline">
+                                        <span class="ah-words-wrapper">
+                                            <b class="is-visible" style="color: #F9C72A;">I Am</b>
+                                            <b style="color: #F9C72A;">Elvis Justice</b>
+                                            <b style="color: #F9C72A;">CEO of Serendipity</b>
+                                        </span>
+                                    </h1>
+                                    <a href="#contact" class="banner-btn">Get in touch</a>
+                                </section>
+                                <div class="clearfix"></div>
+                                <a class="mouse-scroll hidden-xs" href="#about">
+                                    <span class="mouse">
+                                        <span class="mouse-movement"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Banner area ends-->
+
+    <!--about area starts-->
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <h2>About Me</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                   
+                        <p>Elvis Justice Bedi popularly known as Mr. Serendipity is a serial entrepreneur and a Ghanaian investor who is passionate about maximizing the enormous potentials of the internet.
+                        He is one of  Ghana's youngest pioneer investor in Bitcoin and also the brain behind Serendipity Trading Academy, a global Tech Company teaching people how to make money from their phone. </p>
+
+                       <p> He is currently a Medic at one of the finest medical universities in Europe, and he is keen on helping as many people as possible, to understand the enormous potentials of the internet and how they can make money through cryptocurriences, forex and stocks and using the power of the new media.</p>
+
+                       <p> check out my business website <a href="serendipitytradeacademy.com">serendipitytradeacademy</a> </p>
+                       
+
+                        <div class="social-links">
+                        <ul class="list-inline">
+                        <li><a href="https://web.facebook.com/profile.php?id=100011948892392" target="_blank"><i class="fa fa-facebook facebook"></i></a></li>
+                        <li><a href="https://twitter.com/manofserendipty" target="_blank"><i class="fa fa-twitter twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/elvisjusticeofficial_/" target="_blank"><i class="fa fa-instagram instagram"></i></a></li>
+                        <li><a href="https://wa.me/79833494511" target="_blank"><i class="fa fa-whatsapp whatsapp"></i></a></li>
+                        </ul>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/about/elvis justice bedi-profile.JPG" alt="Elvis Justice">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--about area ends-->
+    
+    <!--Services Area Starts-->
+    <div id="services" class="services-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        
+                        <h2>Here is a list of things I can do for you</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="services-carousel" class="owl-carousel owl-theme">
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-bitcoin"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Cryptocurriences</h3>
+                            <p>A digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Comodities</h3> 
+                            <p>Covers the buying and selling of a large range of instruments including oil and gas, gold, silver, cocoa, and sugar.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-bar-chart"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Forex Trading</h3> 
+                            <p>Foreign exchange, FX or currency trading, is a decentralized global market where all the world's currencies trade.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-viacoin"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Indices</h3> 
+                            <p>An index is simply a collection of stocks (or other assets) that moves according to the stocks held within it.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-area-chart"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Stocks</h3> 
+                            <p>The buying and selling of shares in a particular company; if you own the stock, you own a piece of the company.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services Area Ends-->
+
+
+    <!--number area starts-->
+    <div class="number-area section-padding">
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        
+                        <h2>What I Have Done So Far</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+
+                    <div class="single-number text-center">
+                        <i class="fa fa-calendar-check-o"></i>
+                        <h2 class="counter">400</h2> 
+                        <p>Sucessfully project</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <div class="single-number text-center">
+                        <i class="fa fa-diamond"></i>
+                        <h2 class="counter">2</h2> 
+                        <p>years of experience</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <div class="single-number text-center">
+                        <i class="fa fa-user"></i>
+                        <h2 class="counter">400</h2> 
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--number area ends-->
+
+
+<section id="blog" class="blog-release-section">
+<div class="container">
+<div class="section-intro text-center">
+<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+<h2>Blog Posts</h2>
+<p class="line-one"></p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<article class="blog-post-wrapper">
+<div class="post-thumbnail">
+<a href="#"><img src="images/blog/blog-1.jpg" class="img-responsive " alt="Image"></a>
+</div>
+<div class="blog-content">
+<header class="entry-header">
+<div class="entry-meta">
+<ul class="list-inline clearfix">
+<li><span class="the-time">02 MAY 2019</span></li>
+<li>
+    <span class="likes"> 
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook fb"></i></a>
+    <a href="https://www.twitter.com/"><i class="fa fa-twitter tw"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram ig"></i></a>
+    </span>
+</li>
+</ul>
+</div>
+<h2 class="entry-title"><a href="#">Convergence vis anvis stand alone paradigms.</a></h2>
+</header>
+<div class="entry-content">
+<p>Intrinsicly foster alternative action items rather than standardized manufactured products. Efficiently build emerging models without coval.</p>
+</div>
+<footer class="entry-footer">
+<a href="#" class="readmore">Read more <i class="fa fa-long-arrow-right"></i></a>
+</footer>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="blog-post-wrapper">
+<div class="post-thumbnail">
+<a href="#"><img src="images/blog/blog-2.jpg" class="img-responsive " alt="Image"></a>
+</div>
+<div class="blog-content">
+<header class="entry-header">
+<div class="entry-meta">
+<ul class="list-inline clearfix">
+<li><span class="the-time">02 MAY 2019</span></li>
+<li>
+<li>
+    <span class="likes">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook fb"></i></a>
+    <a href="https://www.twitter.com/"><i class="fa fa-twitter tw"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram ig"></i></a>
+    </span>
+</li>
+</li>
+</ul>
+</div>
+<h2 class="entry-title"><a href="#">Convergence vis anvis stand alone paradigms.</a></h2>
+</header>
+<div class="entry-content">
+<p>Intrinsicly foster alternative action items rather than standardized manufactured products. Efficiently build emerging models without coval.</p>
+</div>
+<footer class="entry-footer">
+<a href="#" class="readmore">Read more <i class="fa fa-long-arrow-right"></i></a>
+</footer>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+ <article class="blog-post-wrapper">
+<div class="post-thumbnail">
+<a href="#"><img src="images/blog/blog-3.jpg" class="img-responsive " alt="Image"></a>
+</div>
+<div class="blog-content">
+<header class="entry-header">
+<div class="entry-meta">
+<ul class="list-inline clearfix">
+<li><span class="the-time">02 MAY 2019</span></li>
+<li>
+<span class="likes">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook fb"></i></a>
+    <a href="https://www.twitter.com/"><i class="fa fa-twitter tw"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram ig"></i></a>
+</span>
+</li>
+</ul>
+</div>
+<h2 class="entry-title"><a href="#">Convergence vis anvis stand alone paradigms.</a></h2>
+</header>
+<div class="entry-content">
+<p>Intrinsicly foster alternative action items rather than standardized manufactured products. Efficiently build emerging models without coval.</p>
+</div>
+<footer class="entry-footer">
+<a href="details.php" class="readmore">Read more <i class="fa fa-long-arrow-right"></i></a>
+</footer>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+
+   
+    <!--Gallery Area Starts-->
+    <div id="gallery" class="gallery-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>My Amazing Gallery</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+
+        <div class="gallery">
+                  <a href="images/about/elvis justice bedi-profile.jpg" data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-profile-small.jpg" alt="Elvis Justice Bedi"></a>
+
+                   <a href="images/about/elvis justice bedi-serendipity.JPG"  data-lightbox="mygallery" data-title="Elvis Justice with the serendipity team"><img src="images/about/elvis justice bedi-serendipity-small.JPG" alt="Elvis Justice with the serendipity team"></a>
+
+                   <a href="images/about/elvis justice bedi-hospital.JPG"  data-lightbox="mygallery" data-title="Elvis Justice at the Hospital"><img src="images/about/elvis justice bedi-hospital-small.JPG" alt="Elvis Justice at the Hospital"></a>
+
+                   <a href="images/about/elvis justice bedi-friend.JPG"  data-lightbox="mygallery" data-title="Elvis Justice & a friend"><img src="images/about/elvis justice bedi-friend-small.JPG" alt="Elvis Justice & a friend"></a>
+
+                   <a href="images/about/elvis justice bedi-teaching.JPG"  data-lightbox="mygallery" data-title="Elvis Justice Teaching"><img src="images/about/elvis justice bedi-teaching-small.JPG" alt="Elvis Justice Teaching"></a>
+
+                   <a href="images/about/elvis justice bedi-home.JPG"  data-lightbox="mygallery" data-title="Elvis Justice at home"><img src="images/about/elvis justice bedi-home-small.JPG" alt="Elvis Justice at home"></a>
+
+                   <a href="images/about/elvis justice bedi-serendipity-lady.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-serendipity-lady-small.JPG" alt="Serendipity lady"></a>
+                   
+                   
+                   <a href="images/about/elvis justice bedi-serendipity-ladies.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-serendipity-ladies-small.JPG" alt="Elvis Justice Serendipity Ladies"></a>
+                   
+                   
+                   <a href="images/about/elvis justice bedi-serendipity-men.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-men-small.JPG" alt="Elvis Justice & Serendipity Men"></a>
+                   
+                   
+                   <a href="images/about/elvis justice bedi-men.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-men-small.JPG" alt="Elvis Justice & his team"></a>
+                   
+                   
+                   <a href="images/about/elvis justice bedi-meetup.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-meetup-small.JPG" alt="Elvis Justice & Friends After a Meetup"></a>
+                   
+                   <a href="images/about/elvis justice bedi-hospital-practical.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-hospital-practical-small.JPG" alt="Elvis Justice at Practical Session"></a>
+                   
+                   <a href="images/about/elvis justice bedi-serendipity-discussion.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-serendipity-discussion-small.JPG" alt="Elvis Justice In A Discussion"></a>
+                   
+                   <a href="images/about/elvis justice bedi-customer-care.JPG"  data-lightbox="mygallery" data-title="Elvis Justice"><img src="images/about/elvis justice bedi-customer-care-small.JPG" alt="Elvis Justice Customer Care"></a>                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gallery Area Ends-->
+   
+    <!--Testimonial Section Starts-->
+    <div id="testimonial" class="testimonial-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>What my clients say about me and my work</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="review-area">
+                        <div id="testimonial-carousel" class="owl-carousel owl-theme">
+                            <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>Elvis helped me bagged $1500 from the BAND trade. Highly Recommended!</p> 
+                                    <h2>Lilian</h2>
+                                </div>
+                            </div>
+                            <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>Through Elvis Justice, I made $350 profit band. It is amazing to work with Elvis Justice.</p> 
+                                    <h2>Leticia</h2> 
+                                </div>
+                            </div>
+                            <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>I made $85 from the binance signal sent to me by Elvis. Thank you very much!!</p>
+                                    <h2>Liza</h2> 
+                                </div>
+                            </div>
+                            <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>I traded with a coins price and i made $15 from it. It nice working with you!</p>
+                                    <h2>Dr. Frimpong</h2> 
+                                </div>
+                            </div>
+                            <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>I made $400 from the HBAR signal sent to me by Elvis, it was my first try and it was successful. Thank you Elvis Justice, means alot to me.</p>
+                                    <h2>Miss Benson</h2> 
+                                </div>   
+                            </div>
+                              <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>With Elvis Justice, I was able to make $1700 and even more. Thanks alot!!!.</p>
+                                    <h2>Lovia</h2> 
+                                </div>   
+                            </div>
+                             <div class="single-testi text-center item">
+                                <div class="block-quote">
+                                    <p>I did the investment and holding that I was taught by Elvis Justice and made $600 in three days. God bless you a  lot.</p>
+                                    <h2>Prince</h2> 
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Testimonial Section Ends-->
+
+
+    <!--contact area starts-->
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Contact</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <i class="fa fa-phone"></i>
+                        <h2>Phone: </h2>
+                        <p>(+7) 983 349 4511</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                        <i class="fa fa-envelope-o"></i>
+                        <h2>Email</h2>
+                        <p>elvisjusticekwablahbedi@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                        <i class="fa fa-gg"></i>
+                        <h2>Social Media: </h2>
+                        <div class="socials">
+                            <a href="https://web.facebook.com/profile.php?id=100011948892392" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/elvisjusticeofficial_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/manofserendipty" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://wa.me/79833494511" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                 <form method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1s">
+                    <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_subject" type="subject" name="subject" class="form-control" placeholder="Enter your subject *" required="required" data-error="Subject is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" name="send" class="btn btn-send">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--contact area ends-->
+
+
+    <!--Footer Area Starts-->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy; 2020 | All Rights Reserved | <a href="https://www.linkedin.com/in/francis-tawiah-0ba441168/"> CodeitSoft Technology</a></p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Area Ends-->
+
+    
+
+<!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+     <script src="js/lightbox-plus-jquery.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Magnific popup js-->
+    <script src="js/jquery.magnific-popup.js"></script>
+
+
+
+    <!--Owl Carousel js-->
+    <script src="js/owl.carousel.js"></script>
+
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+    
+
+    <script src="js/custom.js"></script>
+    
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+    
+    <!--counter up js-->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>
